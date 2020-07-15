@@ -1,0 +1,185 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+.card {
+    height: 100% !important;
+}
+
+.card-text {
+    font-size: 17px;
+    height: 130px;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 0px;
+}
+
+.table {
+    margin: auto;
+}
+
+.first-img {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.name {
+    margin-top: -10px;
+}
+
+.engineer {
+    margin-top: -8px;
+}
+
+.engineer {
+    padding-bottom: 10px;
+}
+
+.sns-wrapper {
+    margin-top: -40px;
+}
+
+.article-title {
+    margin-left: 0%;
+}
+
+.article-sub-title {
+    margin-left: 10%;
+    font-size: 24px;
+}
+
+.sns-wrapper i {
+    font-size: 24px;
+}
+
+.qiita {
+    width: 24px;
+    margin-top: -6px;
+    border-bottom: 50%;
+    color: black;
+}
+
+/* header */
+
+/* main card */
+.row-1 {
+    margin-bottom: 30px;
+}
+
+.my-girl {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.card-header {
+    padding-bottom: 5px  !important;
+}
+
+.main-text-wrapper {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main-text {
+    text-align: center;
+    margin-bottom: 0% !important;
+}
+
+/* products */
+.products_card {
+    max-width: 350px;
+}
+
+.flex {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex > .card {
+    width: 40%;
+}
+
+.table {
+    width: 55%;
+}
+
+.qiita {
+    border-radius: 100%;
+}
+
+.circle {
+    border-radius: 100%;
+    width: 20px;
+}
+
+.sns_link {
+    display: block;
+    width: 100%;
+}
+
+.sns-table  {
+    width: 250px;
+}
+
+.copy {
+    text-align: center;
+    padding: 0px 0 15px;
+}
+
+@media screen and (max-width: 415px) {
+    main {
+        width: 90% !important;
+    }
+
+    .my-girl {
+        width: 210px;
+        height: 210px;
+        margin-top: -10px;
+    }
+
+    .main-text {
+        font-size: 15px;
+    }
+
+    .article-title {
+        margin-left: 5px;
+    }
+
+    .profile_table {
+        width: 80%;
+    }
+
+    .table {
+        width: 80%;
+    }
+
+    .sns-table {
+        width: 60%;
+    }
+
+    .products_card {
+        padding-bottom: 20px;
+    }
+}
